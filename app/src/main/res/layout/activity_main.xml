@@ -8,233 +8,233 @@
     tools:context=".MainActivity">
 
     <ScrollView
-        android:id="@+id/scrollView2"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="80dp"
-        android:background="#FFFCFC"
-        android:clipToPadding="false"
-        android:fillViewport="false"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+            android:id="@+id/scrollView2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="80dp"
+            android:background="#FFFCFC"
+            android:clipToPadding="false"
+            android:fillViewport="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="vertical">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
 
             <Button
-                android:id="@+id/btnTortaDeLimao"
-                android:layout_width="405dp"
-                android:layout_height="280dp"
-                android:layout_margin="2dp"
-                android:background="#FF5722"
-                android:drawableTop="@drawable/torta_de_limao"
-                android:gravity="bottom|center"
-                android:paddingBottom="5dp"
-                android:text="Torta de Limão" />
+                    android:id="@+id/btnTortaDeLimao"
+                    android:layout_width="405dp"
+                    android:layout_height="280dp"
+                    android:layout_margin="2dp"
+                    android:background="#FF5722"
+                    android:drawableTop="@drawable/torta_de_limao"
+                    android:gravity="bottom|center"
+                    android:paddingBottom="5dp"
+                    android:text="Torta de Limão"/>
 
             <Button
-                android:id="@+id/btnPureDeBatata"
-                android:layout_width="405dp"
-                android:layout_height="280dp"
-                android:layout_margin="2dp"
-                android:background="#FF5722"
-                android:drawableTop="@drawable/pure_de_batata"
-                android:gravity="bottom|center"
-                android:paddingBottom="5dp"
-                android:text="Purê de Batatas" />
+                    android:id="@+id/btnPureDeBatata"
+                    android:layout_width="405dp"
+                    android:layout_height="280dp"
+                    android:layout_margin="2dp"
+                    android:background="#FF5722"
+                    android:drawableTop="@drawable/pure_de_batata"
+                    android:gravity="bottom|center"
+                    android:paddingBottom="5dp"
+                    android:text="Purê de Batatas"/>
 
             <Button
-                android:id="@+id/btnLasanhaBolonhesa"
-                android:layout_width="405dp"
-                android:layout_height="280dp"
-                android:layout_margin="2dp"
-                android:background="#FF5722"
-                android:drawableTop="@drawable/lasanha_bolonhesa"
-                android:gravity="bottom|center"
-                android:paddingBottom="5dp"
-                android:text="Lasanha Bolonhesa" />
+                    android:id="@+id/btnLasanhaBolonhesa"
+                    android:layout_width="405dp"
+                    android:layout_height="280dp"
+                    android:layout_margin="2dp"
+                    android:background="#FF5722"
+                    android:drawableTop="@drawable/lasanha_bolonhesa"
+                    android:gravity="bottom|center"
+                    android:paddingBottom="5dp"
+                    android:text="Lasanha Bolonhesa"/>
 
             <Button
-                android:id="@+id/btnOvosFritos"
-                android:layout_width="405dp"
-                android:layout_height="280dp"
-                android:layout_margin="2dp"
-                android:background="#FF5722"
-                android:drawableTop="@drawable/ovos_fritos"
-                android:gravity="bottom|center"
-                android:paddingBottom="5dp"
-                android:text="Ovos Fritos" />
+                    android:id="@+id/btnOvosFritos"
+                    android:layout_width="405dp"
+                    android:layout_height="280dp"
+                    android:layout_margin="2dp"
+                    android:background="#FF5722"
+                    android:drawableTop="@drawable/ovos_fritos"
+                    android:gravity="bottom|center"
+                    android:paddingBottom="5dp"
+                    android:text="Ovos Fritos"/>
 
             <Button
-                android:id="@+id/btnOvosMexidos"
-                android:layout_width="405dp"
-                android:layout_height="280dp"
-                android:layout_margin="2dp"
-                android:background="#FF5722"
-                android:drawableTop="@drawable/ovos_mexidos"
-                android:gravity="bottom|center"
-                android:paddingBottom="5dp"
-                android:text="Ovos Mexidos" />
+                    android:id="@+id/btnOvosMexidos"
+                    android:layout_width="405dp"
+                    android:layout_height="280dp"
+                    android:layout_margin="2dp"
+                    android:background="#FF5722"
+                    android:drawableTop="@drawable/ovos_mexidos"
+                    android:gravity="bottom|center"
+                    android:paddingBottom="5dp"
+                    android:text="Ovos Mexidos"/>
 
             <Button
-                android:id="@+id/btnPanquecaComFrango"
-                android:layout_width="405dp"
-                android:layout_height="280dp"
-                android:layout_margin="2dp"
-                android:background="#FF5722"
-                android:drawableTop="@drawable/panqueca_com_frango"
-                android:gravity="bottom|center"
-                android:paddingBottom="5dp"
-                android:text="Panqueca com Frango" />
+                    android:id="@+id/btnPanquecaComFrango"
+                    android:layout_width="405dp"
+                    android:layout_height="280dp"
+                    android:layout_margin="2dp"
+                    android:background="#FF5722"
+                    android:drawableTop="@drawable/panqueca_com_frango"
+                    android:gravity="bottom|center"
+                    android:paddingBottom="5dp"
+                    android:text="Panqueca com Frango"/>
 
             <Button
-                android:id="@+id/btnPaoCaseiro"
-                android:layout_width="405dp"
-                android:layout_height="280dp"
-                android:layout_margin="2dp"
-                android:background="#FF5722"
-                android:drawableTop="@drawable/pao_caseiro"
-                android:gravity="bottom|center"
-                android:paddingBottom="5dp"
-                android:text="Pão Caseiro" />
+                    android:id="@+id/btnPaoCaseiro"
+                    android:layout_width="405dp"
+                    android:layout_height="280dp"
+                    android:layout_margin="2dp"
+                    android:background="#FF5722"
+                    android:drawableTop="@drawable/pao_caseiro"
+                    android:gravity="bottom|center"
+                    android:paddingBottom="5dp"
+                    android:text="Pão Caseiro"/>
 
             <Button
-                android:id="@+id/btnPaoDeQueijo"
-                android:layout_width="405dp"
-                android:layout_height="280dp"
-                android:layout_margin="2dp"
-                android:background="#FF5722"
-                android:drawableTop="@drawable/pao_de_queijo"
-                android:gravity="bottom|center"
-                android:paddingBottom="5dp"
-                android:text="Pão de Queijo" />
+                    android:id="@+id/btnPaoDeQueijo"
+                    android:layout_width="405dp"
+                    android:layout_height="280dp"
+                    android:layout_margin="2dp"
+                    android:background="#FF5722"
+                    android:drawableTop="@drawable/pao_de_queijo"
+                    android:gravity="bottom|center"
+                    android:paddingBottom="5dp"
+                    android:text="Pão de Queijo"/>
 
             <Button
-                android:id="@+id/btnStrogonoffDeCarne"
-                android:layout_width="405dp"
-                android:layout_height="280dp"
-                android:layout_margin="2dp"
-                android:background="#FF5722"
-                android:drawableTop="@drawable/strogonoff_de_carne"
-                android:gravity="bottom|center"
-                android:paddingBottom="5dp"
-                android:text="Strogonoff de Carne" />
+                    android:id="@+id/btnStrogonoffDeCarne"
+                    android:layout_width="405dp"
+                    android:layout_height="280dp"
+                    android:layout_margin="2dp"
+                    android:background="#FF5722"
+                    android:drawableTop="@drawable/strogonoff_de_carne"
+                    android:gravity="bottom|center"
+                    android:paddingBottom="5dp"
+                    android:text="Strogonoff de Carne"/>
 
             <Button
-                android:id="@+id/btnTortaDeBanana"
-                android:layout_width="405dp"
-                android:layout_height="280dp"
-                android:layout_margin="2dp"
-                android:background="#FF5722"
-                android:drawableTop="@drawable/torta_de_banana"
-                android:gravity="bottom|center"
-                android:paddingBottom="5dp"
-                android:text="Torta de Banana" />
+                    android:id="@+id/btnTortaDeBanana"
+                    android:layout_width="405dp"
+                    android:layout_height="280dp"
+                    android:layout_margin="2dp"
+                    android:background="#FF5722"
+                    android:drawableTop="@drawable/torta_de_banana"
+                    android:gravity="bottom|center"
+                    android:paddingBottom="5dp"
+                    android:text="Torta de Banana"/>
 
             <Button
-                android:id="@+id/btnTortaDeFrango"
-                android:layout_width="405dp"
-                android:layout_height="280dp"
-                android:layout_margin="2dp"
-                android:background="#FF5722"
-                android:drawableTop="@drawable/torta_de_frango"
-                android:gravity="bottom|center"
-                android:paddingBottom="5dp"
-                android:text="Torta de Frango" />
+                    android:id="@+id/btnTortaDeFrango"
+                    android:layout_width="405dp"
+                    android:layout_height="280dp"
+                    android:layout_margin="2dp"
+                    android:background="#FF5722"
+                    android:drawableTop="@drawable/torta_de_frango"
+                    android:gravity="bottom|center"
+                    android:paddingBottom="5dp"
+                    android:text="Torta de Frango"/>
 
             <Button
-                android:id="@+id/btnBoloDeCarne"
-                android:layout_width="405dp"
-                android:layout_height="280dp"
-                android:layout_margin="2dp"
-                android:background="#FF5722"
-                android:drawableTop="@drawable/bolo_de_carne"
-                android:gravity="bottom|center"
-                android:paddingBottom="5dp"
-                android:text="Bolo de Carne" />
+                    android:id="@+id/btnBoloDeCarne"
+                    android:layout_width="405dp"
+                    android:layout_height="280dp"
+                    android:layout_margin="2dp"
+                    android:background="#FF5722"
+                    android:drawableTop="@drawable/bolo_de_carne"
+                    android:gravity="bottom|center"
+                    android:paddingBottom="5dp"
+                    android:text="Bolo de Carne"/>
 
             <Button
-                android:id="@+id/btnBrusquetas"
-                android:layout_width="405dp"
-                android:layout_height="280dp"
-                android:layout_margin="2dp"
-                android:background="#FF5722"
-                android:drawableTop="@drawable/brusquetas"
-                android:gravity="bottom|center"
-                android:paddingBottom="5dp"
-                android:text="Brusquetas" />
+                    android:id="@+id/btnBrusquetas"
+                    android:layout_width="405dp"
+                    android:layout_height="280dp"
+                    android:layout_margin="2dp"
+                    android:background="#FF5722"
+                    android:drawableTop="@drawable/brusquetas"
+                    android:gravity="bottom|center"
+                    android:paddingBottom="5dp"
+                    android:text="Brusquetas"/>
 
             <Button
-                android:id="@+id/btnFeijoada"
-                android:layout_width="405dp"
-                android:layout_height="280dp"
-                android:layout_margin="2dp"
-                android:background="#FF5722"
-                android:drawableTop="@drawable/feijoada"
-                android:gravity="bottom|center"
-                android:paddingBottom="5dp"
-                android:text="Feijoada" />
+                    android:id="@+id/btnFeijoada"
+                    android:layout_width="405dp"
+                    android:layout_height="280dp"
+                    android:layout_margin="2dp"
+                    android:background="#FF5722"
+                    android:drawableTop="@drawable/feijoada"
+                    android:gravity="bottom|center"
+                    android:paddingBottom="5dp"
+                    android:text="Feijoada"/>
 
             <Button
-                android:id="@+id/btnMassaAoAlhoEOlho"
-                android:layout_width="405dp"
-                android:layout_height="280dp"
-                android:layout_margin="2dp"
-                android:background="#FF5722"
-                android:drawableTop="@drawable/massa_ao_alho_e_olho"
-                android:gravity="bottom|center"
-                android:paddingBottom="5dp"
-                android:text="Massa ao Alho e Olho" />
+                    android:id="@+id/btnMassaAoAlhoEOlho"
+                    android:layout_width="405dp"
+                    android:layout_height="280dp"
+                    android:layout_margin="2dp"
+                    android:background="#FF5722"
+                    android:drawableTop="@drawable/massa_ao_alho_e_olho"
+                    android:gravity="bottom|center"
+                    android:paddingBottom="5dp"
+                    android:text="Massa ao Alho e Olho"/>
 
             <Button
-                android:id="@+id/btnMassaBolonhesa"
-                android:layout_width="405dp"
-                android:layout_height="280dp"
-                android:layout_margin="2dp"
-                android:background="#FF5722"
-                android:drawableTop="@drawable/massa_bolonhesa"
-                android:gravity="bottom|center"
-                android:paddingBottom="5dp"
-                android:text="Massa Bolonhesa" />
+                    android:id="@+id/btnMassaBolonhesa"
+                    android:layout_width="405dp"
+                    android:layout_height="280dp"
+                    android:layout_margin="2dp"
+                    android:background="#FF5722"
+                    android:drawableTop="@drawable/massa_bolonhesa"
+                    android:gravity="bottom|center"
+                    android:paddingBottom="5dp"
+                    android:text="Massa Bolonhesa"/>
 
             <Button
-                android:id="@+id/btnMassaCarbonara"
-                android:layout_width="405dp"
-                android:layout_height="280dp"
-                android:layout_margin="2dp"
-                android:background="#FF5722"
-                android:drawableTop="@drawable/massa_carbonara"
-                android:gravity="bottom|center"
-                android:paddingBottom="5dp"
-                android:text="Massa Carbonara" />
+                    android:id="@+id/btnMassaCarbonara"
+                    android:layout_width="405dp"
+                    android:layout_height="280dp"
+                    android:layout_margin="2dp"
+                    android:background="#FF5722"
+                    android:drawableTop="@drawable/massa_carbonara"
+                    android:gravity="bottom|center"
+                    android:paddingBottom="5dp"
+                    android:text="Massa Carbonara"/>
 
             <Button
-                android:id="@+id/btnMousseDeChocolate"
-                android:layout_width="405dp"
-                android:layout_height="280dp"
-                android:layout_margin="2dp"
-                android:background="#FF5722"
-                android:drawableTop="@drawable/mousse_de_chocolate"
-                android:gravity="bottom|center"
-                android:paddingBottom="5dp"
-                android:text="Mousse de Chocolate" />
+                    android:id="@+id/btnMousseDeChocolate"
+                    android:layout_width="405dp"
+                    android:layout_height="280dp"
+                    android:layout_margin="2dp"
+                    android:background="#FF5722"
+                    android:drawableTop="@drawable/mousse_de_chocolate"
+                    android:gravity="bottom|center"
+                    android:paddingBottom="5dp"
+                    android:text="Mousse de Chocolate"/>
 
             <Button
-                android:id="@+id/btnSopaDeLegumes"
-                android:layout_width="405dp"
-                android:layout_height="280dp"
-                android:layout_margin="2dp"
-                android:background="#FF5722"
-                android:drawableTop="@drawable/sopa_de_legumes"
-                android:gravity="bottom|center"
-                android:paddingBottom="5dp"
-                android:text="Sopa de Legumes" />
+                    android:id="@+id/btnSopaDeLegumes"
+                    android:layout_width="405dp"
+                    android:layout_height="280dp"
+                    android:layout_margin="2dp"
+                    android:background="#FF5722"
+                    android:drawableTop="@drawable/sopa_de_legumes"
+                    android:gravity="bottom|center"
+                    android:paddingBottom="5dp"
+                    android:text="Sopa de Legumes"/>
 
         </LinearLayout>
     </ScrollView>
