@@ -36,7 +36,7 @@
                     android:drawableTop="@drawable/torta_de_limao"
                     android:gravity="bottom|center"
                     android:paddingBottom="5dp"
-                    android:text="Torta de Limão"/>
+                    android:text="Torta de Limão" android:textColor="#FDFDFD"/>
 
             <Button
                     android:id="@+id/btnPureDeBatata"
@@ -47,7 +47,7 @@
                     android:drawableTop="@drawable/pure_de_batata"
                     android:gravity="bottom|center"
                     android:paddingBottom="5dp"
-                    android:text="Purê de Batatas"/>
+                    android:text="Purê de Batatas" android:textColor="#FDFDFD"/>
 
             <Button
                     android:id="@+id/btnLasanhaBolonhesa"
@@ -58,7 +58,7 @@
                     android:drawableTop="@drawable/lasanha_bolonhesa"
                     android:gravity="bottom|center"
                     android:paddingBottom="5dp"
-                    android:text="Lasanha Bolonhesa"/>
+                    android:text="Lasanha Bolonhesa" android:textColor="#FDFDFD"/>
 
             <Button
                     android:id="@+id/btnOvosFritos"
@@ -69,7 +69,7 @@
                     android:drawableTop="@drawable/ovos_fritos"
                     android:gravity="bottom|center"
                     android:paddingBottom="5dp"
-                    android:text="Ovos Fritos"/>
+                    android:text="Ovos Fritos" android:textColor="#FDFDFD"/>
 
             <Button
                     android:id="@+id/btnOvosMexidos"
@@ -80,7 +80,7 @@
                     android:drawableTop="@drawable/ovos_mexidos"
                     android:gravity="bottom|center"
                     android:paddingBottom="5dp"
-                    android:text="Ovos Mexidos"/>
+                    android:text="Ovos Mexidos" android:textColor="#FDFDFD"/>
 
             <Button
                     android:id="@+id/btnPanquecaComFrango"
@@ -91,7 +91,7 @@
                     android:drawableTop="@drawable/panqueca_com_frango"
                     android:gravity="bottom|center"
                     android:paddingBottom="5dp"
-                    android:text="Panqueca com Frango"/>
+                    android:text="Panqueca com Frango" android:textColor="#FDFDFD"/>
 
             <Button
                     android:id="@+id/btnPaoCaseiro"
@@ -102,7 +102,7 @@
                     android:drawableTop="@drawable/pao_caseiro"
                     android:gravity="bottom|center"
                     android:paddingBottom="5dp"
-                    android:text="Pão Caseiro"/>
+                    android:text="Pão Caseiro" android:textColor="#FDFDFD"/>
 
             <Button
                     android:id="@+id/btnPaoDeQueijo"
@@ -113,7 +113,7 @@
                     android:drawableTop="@drawable/pao_de_queijo"
                     android:gravity="bottom|center"
                     android:paddingBottom="5dp"
-                    android:text="Pão de Queijo"/>
+                    android:text="Pão de Queijo" android:textColor="#FDFDFD"/>
 
             <Button
                     android:id="@+id/btnStrogonoffDeCarne"
@@ -124,7 +124,7 @@
                     android:drawableTop="@drawable/strogonoff_de_carne"
                     android:gravity="bottom|center"
                     android:paddingBottom="5dp"
-                    android:text="Strogonoff de Carne"/>
+                    android:text="Strogonoff de Carne" android:textColor="#FDFDFD"/>
 
             <Button
                     android:id="@+id/btnTortaDeBanana"
@@ -135,7 +135,7 @@
                     android:drawableTop="@drawable/torta_de_banana"
                     android:gravity="bottom|center"
                     android:paddingBottom="5dp"
-                    android:text="Torta de Banana"/>
+                    android:text="Torta de Banana" android:textColor="#FDFDFD"/>
 
             <Button
                     android:id="@+id/btnTortaDeFrango"
@@ -146,7 +146,7 @@
                     android:drawableTop="@drawable/torta_de_frango"
                     android:gravity="bottom|center"
                     android:paddingBottom="5dp"
-                    android:text="Torta de Frango"/>
+                    android:text="Torta de Frango" android:textColor="#FDFDFD"/>
 
             <Button
                     android:id="@+id/btnBoloDeCarne"
@@ -157,7 +157,7 @@
                     android:drawableTop="@drawable/bolo_de_carne"
                     android:gravity="bottom|center"
                     android:paddingBottom="5dp"
-                    android:text="Bolo de Carne"/>
+                    android:text="Bolo de Carne" android:textColor="#FDFDFD"/>
 
             <Button
                     android:id="@+id/btnBrusquetas"
@@ -168,7 +168,7 @@
                     android:drawableTop="@drawable/brusquetas"
                     android:gravity="bottom|center"
                     android:paddingBottom="5dp"
-                    android:text="Brusquetas"/>
+                    android:text="Brusquetas" android:textColor="#FDFDFD"/>
 
             <Button
                     android:id="@+id/btnFeijoada"
@@ -179,7 +179,7 @@
                     android:drawableTop="@drawable/feijoada"
                     android:gravity="bottom|center"
                     android:paddingBottom="5dp"
-                    android:text="Feijoada"/>
+                    android:text="Feijoada" android:textColor="#FDFDFD"/>
 
             <Button
                     android:id="@+id/btnMassaAoAlhoEOlho"
@@ -190,7 +190,7 @@
                     android:drawableTop="@drawable/massa_ao_alho_e_olho"
                     android:gravity="bottom|center"
                     android:paddingBottom="5dp"
-                    android:text="Massa ao Alho e Olho"/>
+                    android:text="Massa ao Alho e Olho" android:textColor="#FDFDFD"/>
 
             <Button
                     android:id="@+id/btnMassaBolonhesa"
@@ -201,7 +201,7 @@
                     android:drawableTop="@drawable/massa_bolonhesa"
                     android:gravity="bottom|center"
                     android:paddingBottom="5dp"
-                    android:text="Massa Bolonhesa"/>
+                    android:text="Massa Bolonhesa" android:textColor="#FDFDFD"/>
 
             <Button
                     android:id="@+id/btnMassaCarbonara"
@@ -212,7 +212,7 @@
                     android:drawableTop="@drawable/massa_carbonara"
                     android:gravity="bottom|center"
                     android:paddingBottom="5dp"
-                    android:text="Massa Carbonara"/>
+                    android:text="Massa Carbonara" android:textColor="#FDFDFD"/>
 
             <Button
                     android:id="@+id/btnMousseDeChocolate"
@@ -223,7 +223,7 @@
                     android:drawableTop="@drawable/mousse_de_chocolate"
                     android:gravity="bottom|center"
                     android:paddingBottom="5dp"
-                    android:text="Mousse de Chocolate"/>
+                    android:text="Mousse de Chocolate" android:textColor="#FDFDFD"/>
 
             <Button
                     android:id="@+id/btnSopaDeLegumes"
@@ -234,7 +234,7 @@
                     android:drawableTop="@drawable/sopa_de_legumes"
                     android:gravity="bottom|center"
                     android:paddingBottom="5dp"
-                    android:text="Sopa de Legumes"/>
+                    android:text="Sopa de Legumes" android:textColor="#FDFDFD"/>
 
         </LinearLayout>
     </ScrollView>

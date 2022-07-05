@@ -6,7 +6,6 @@ import android.os.*;
 import android.view.View;
 import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
-import com.example.chapeudechef.receitas.ReceitaTortaDeBanana;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -37,6 +36,8 @@ public class MainActivity extends AppCompatActivity {
 
         final Vibrator vibrator = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
 
+        Intent intent = new Intent(MainActivity.this, ReceitasActivity.class);
+
         btnTortaDeBanana.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -45,10 +46,11 @@ public class MainActivity extends AppCompatActivity {
                     vibrationEffect1 = VibrationEffect.createOneShot(65, VibrationEffect.DEFAULT_AMPLITUDE);
                     vibrator.cancel();
                     vibrator.vibrate(vibrationEffect1);
-                }
 
-                Intent intent = new Intent (MainActivity.this, ReceitaTortaDeBanana.class);
-                startActivity(intent);
+                    intent.putExtra("INDICE", 2);
+                    startActivity(intent);
+
+                }
 
             }
         });
@@ -61,6 +63,9 @@ public class MainActivity extends AppCompatActivity {
                     vibrationEffect1 = VibrationEffect.createOneShot(65, VibrationEffect.DEFAULT_AMPLITUDE);
                     vibrator.cancel();
                     vibrator.vibrate(vibrationEffect1);
+
+                    intent.putExtra("INDICE", 1);
+                    startActivity(intent);
                 }
             }
         });
@@ -72,6 +77,8 @@ public class MainActivity extends AppCompatActivity {
                     vibrationEffect1 = VibrationEffect.createOneShot(65, VibrationEffect.DEFAULT_AMPLITUDE);
                     vibrator.cancel();
                     vibrator.vibrate(vibrationEffect1);
+
+                    startActivity(intent);
                 }
             }
         });
@@ -83,6 +90,8 @@ public class MainActivity extends AppCompatActivity {
                     vibrationEffect1 = VibrationEffect.createOneShot(65, VibrationEffect.DEFAULT_AMPLITUDE);
                     vibrator.cancel();
                     vibrator.vibrate(vibrationEffect1);
+
+                    startActivity(intent);
                 }
             }
         });
@@ -94,6 +103,9 @@ public class MainActivity extends AppCompatActivity {
                     vibrationEffect1 = VibrationEffect.createOneShot(65, VibrationEffect.DEFAULT_AMPLITUDE);
                     vibrator.cancel();
                     vibrator.vibrate(vibrationEffect1);
+
+                    startActivity(intent);
+
                 }
             }
         });
@@ -105,6 +117,9 @@ public class MainActivity extends AppCompatActivity {
                     vibrationEffect1 = VibrationEffect.createOneShot(65, VibrationEffect.DEFAULT_AMPLITUDE);
                     vibrator.cancel();
                     vibrator.vibrate(vibrationEffect1);
+
+                    startActivity(intent);
+
                 }
             }
         });
@@ -116,6 +131,9 @@ public class MainActivity extends AppCompatActivity {
                     vibrationEffect1 = VibrationEffect.createOneShot(65, VibrationEffect.DEFAULT_AMPLITUDE);
                     vibrator.cancel();
                     vibrator.vibrate(vibrationEffect1);
+
+                    startActivity(intent);
+
                 }
             }
         });
@@ -127,6 +145,9 @@ public class MainActivity extends AppCompatActivity {
                     vibrationEffect1 = VibrationEffect.createOneShot(65, VibrationEffect.DEFAULT_AMPLITUDE);
                     vibrator.cancel();
                     vibrator.vibrate(vibrationEffect1);
+
+                    startActivity(intent);
+
                 }
             }
         });
@@ -138,6 +159,11 @@ public class MainActivity extends AppCompatActivity {
                     vibrationEffect1 = VibrationEffect.createOneShot(65, VibrationEffect.DEFAULT_AMPLITUDE);
                     vibrator.cancel();
                     vibrator.vibrate(vibrationEffect1);
+
+                    startActivity(intent);
+
+
+
                 }
             }
         });
@@ -149,6 +175,9 @@ public class MainActivity extends AppCompatActivity {
                     vibrationEffect1 = VibrationEffect.createOneShot(65, VibrationEffect.DEFAULT_AMPLITUDE);
                     vibrator.cancel();
                     vibrator.vibrate(vibrationEffect1);
+
+                    startActivity(intent);
+
                 }
             }
         });
@@ -160,6 +189,9 @@ public class MainActivity extends AppCompatActivity {
                     vibrationEffect1 = VibrationEffect.createOneShot(65, VibrationEffect.DEFAULT_AMPLITUDE);
                     vibrator.cancel();
                     vibrator.vibrate(vibrationEffect1);
+
+                    startActivity(intent);
+
                 }
             }
         });
@@ -171,6 +203,10 @@ public class MainActivity extends AppCompatActivity {
                     vibrationEffect1 = VibrationEffect.createOneShot(65, VibrationEffect.DEFAULT_AMPLITUDE);
                     vibrator.cancel();
                     vibrator.vibrate(vibrationEffect1);
+
+                    intent.putExtra("INDICE", 0);
+                    startActivity(intent);
+
                 }
             }
         });
@@ -182,6 +218,9 @@ public class MainActivity extends AppCompatActivity {
                     vibrationEffect1 = VibrationEffect.createOneShot(65, VibrationEffect.DEFAULT_AMPLITUDE);
                     vibrator.cancel();
                     vibrator.vibrate(vibrationEffect1);
+
+                    startActivity(intent);
+
                 }
             }
         });
@@ -193,6 +232,9 @@ public class MainActivity extends AppCompatActivity {
                     vibrationEffect1 = VibrationEffect.createOneShot(65, VibrationEffect.DEFAULT_AMPLITUDE);
                     vibrator.cancel();
                     vibrator.vibrate(vibrationEffect1);
+
+                    startActivity(intent);
+
                 }
             }
         });
@@ -204,6 +246,9 @@ public class MainActivity extends AppCompatActivity {
                     vibrationEffect1 = VibrationEffect.createOneShot(65, VibrationEffect.DEFAULT_AMPLITUDE);
                     vibrator.cancel();
                     vibrator.vibrate(vibrationEffect1);
+
+                    startActivity(intent);
+
                 }
             }
         });
@@ -215,6 +260,10 @@ public class MainActivity extends AppCompatActivity {
                     vibrationEffect1 = VibrationEffect.createOneShot(65, VibrationEffect.DEFAULT_AMPLITUDE);
                     vibrator.cancel();
                     vibrator.vibrate(vibrationEffect1);
+
+                    startActivity(intent);
+
+
                 }
             }
         });
@@ -226,6 +275,9 @@ public class MainActivity extends AppCompatActivity {
                     vibrationEffect1 = VibrationEffect.createOneShot(65, VibrationEffect.DEFAULT_AMPLITUDE);
                     vibrator.cancel();
                     vibrator.vibrate(vibrationEffect1);
+
+                    startActivity(intent);
+
                 }
             }
         });
@@ -237,6 +289,9 @@ public class MainActivity extends AppCompatActivity {
                     vibrationEffect1 = VibrationEffect.createOneShot(65, VibrationEffect.DEFAULT_AMPLITUDE);
                     vibrator.cancel();
                     vibrator.vibrate(vibrationEffect1);
+
+                    startActivity(intent);
+
                 }
             }
         });
@@ -248,6 +303,9 @@ public class MainActivity extends AppCompatActivity {
                     vibrationEffect1 = VibrationEffect.createOneShot(65, VibrationEffect.DEFAULT_AMPLITUDE);
                     vibrator.cancel();
                     vibrator.vibrate(vibrationEffect1);
+
+                    startActivity(intent);
+
                 }
             }
         });
@@ -259,6 +317,9 @@ public class MainActivity extends AppCompatActivity {
                     vibrationEffect1 = VibrationEffect.createOneShot(65, VibrationEffect.DEFAULT_AMPLITUDE);
                     vibrator.cancel();
                     vibrator.vibrate(vibrationEffect1);
+
+                    startActivity(intent);
+
                 }
             }
         });
@@ -270,6 +331,9 @@ public class MainActivity extends AppCompatActivity {
                     vibrationEffect1 = VibrationEffect.createOneShot(65, VibrationEffect.DEFAULT_AMPLITUDE);
                     vibrator.cancel();
                     vibrator.vibrate(vibrationEffect1);
+
+                    startActivity(intent);
+
                 }
             }
         });
@@ -281,6 +345,9 @@ public class MainActivity extends AppCompatActivity {
                     vibrationEffect1 = VibrationEffect.createOneShot(65, VibrationEffect.DEFAULT_AMPLITUDE);
                     vibrator.cancel();
                     vibrator.vibrate(vibrationEffect1);
+
+                    startActivity(intent);
+
                 }
             }
         });
